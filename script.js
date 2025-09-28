@@ -1,0 +1,1 @@
+console.log("Manzari Gold website loaded with 360° demo");

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manzari Gold — Шубы в Москве</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="logo">Manzari <span>Gold</span></div>
+        <nav>
+            <a href="#catalog">Каталог</a>
+            <a href="#about">О нас</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+    </header>
+
+    <!-- Главный блок -->
+    <section class="hero">
+        <h1>Элегантные шубы в Москве</h1>
+        <p>Роскошь, стиль и качество премиум-класса</p>
+        <a href="#catalog" class="btn">Смотреть каталог</a>
+    </section>
+
+    <!-- Каталог -->
+    <section id="catalog" class="catalog">
+        <h2>Каталог</h2>
+        <div class="products">
+
+            <!-- Шуба с 360° -->
+            <div class="product">
+                <div class="cloudimage-360"
+                     data-folder="images/fur360/"
+                     data-filename="{index}.jpg"
+                     data-amount="12"
+                     data-speed="150"
+                     data-autoplay="true"
+                     data-autoplay-behavior="spin"
+                     style="width:100%; height:300px;">
+                </div>
+                <h3>Шуба 360° (демо)</h3>
+                <p class="price">350 000 ₽</p>
+                <a href="#" class="btn">Подробнее</a>
+            </div>
+
+            <!-- Обычные товары -->
+            <div class="product">
+                <img src="images/fur2.jpg" alt="Шуба 2">
+                <h3>Шуба из соболя</h3>
+                <p class="price">520 000 ₽</p>
+                <a href="#" class="btn">Подробнее</a>
+            </div>
+            <div class="product">
+                <img src="images/fur3.jpg" alt="Шуба 3">
+                <h3>Шуба из песца</h3>
+                <p class="price">280 000 ₽</p>
+                <a href="#" class="btn">Подробнее</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- О нас -->
+    <section id="about" class="about">
+        <h2>О Manzari Gold</h2>
+        <p>Мы предлагаем эксклюзивные шубы премиум-класса в Москве. Наши модели сочетают в себе роскошь, элегантность и высочайшее качество.</p>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contacts" class="contacts">
+        <h2>Контакты</h2>
+        <p>📍 Москва, Тверская ул., 12</p>
+        <p>📞 +7 (999) 123-45-67</p>
+        <p>💬 WhatsApp: +7 (999) 123-45-67</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Manzari Gold. Все права защищены.</p>
+    </footer>
+
+    <script src="https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/3.0.4/js-cloudimage-360-view.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
